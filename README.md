@@ -9,7 +9,7 @@ A library for COVID-19  cases, deaths and etc.  by specific country  on ESP32
 1. เรียกไลบรารี่
 
 ```cpp
-#include <TridentTD_COVID19>
+#include <TridentTD_COVID19.h>
 ```
 
 2. เริ่มการทำงาน โดยกำหนดประเทศที่ต้องการ  
@@ -27,6 +27,7 @@ void loop() {
     Serial.println(COVID19.cases());             // แสดงยอดผู้ป่วยสะสม ล่าสุด
     Serial.println(COVID19.cases("22/03/2020")); // แสดงยอดผู้ป่วยสะสม วันที่กำหนด  ( date/month/year )
   }
+}
 ```
 ( ค่าอื่นๆ ดูในตัวอย่าง examples ของไลบรารี่ )  
 
