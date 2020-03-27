@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+TridentTD_COVID19	KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+COVID19	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+available	KEYWORD2
+current_date	KEYWORD2
+getHistory	KEYWORD2
+getToday	KEYWORD2
+cases	KEYWORD2
+deaths	KEYWORD2
+todayCases	KEYWORD2
+todayDeaths	KEYWORD2
+recovered	KEYWORD2
+active	KEYWORD2
+critical	KEYWORD2
+casesPerOneMillion	KEYWORD2
+deathsPerOneMillion	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
